@@ -8,13 +8,14 @@
       <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css" />
       <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap-theme.css" />
       <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" />
-      <link rel="stylesheet" href="css/prettyGallery.css" type="text/css" media="screen" charset="utf-8" />
-      <script src="prettyPhoto_compressed_3.1.6/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"> </script>
+      <script src="js/jquery-2.2.2.min.js" type="text/javascript" charset="utf-8"></script>
+      <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
       
-          <script type="text/javascript" charset="utf-8">
-      $(document).ready(function(){
-        $("area[rel^='prettyPhoto']").prettyPhoto();
-      });
+      <script type="text/javascript" charset="utf-8">
+		  $(document).ready(function(){
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		  });
       </script>
       
       </head>
@@ -51,75 +52,7 @@
               </div>
        
           </nav>
-          <style>
-          
-          div.img {
-      border: 1px solid #ccc;
-  }
-  
-  div.img:hover {
-      border: 1px solid #777;
-  }
-  
-  div.img img {
-    width: 100%;
-    height: auto;
-    cursor: pointer;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
- {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 25%;
-}
-
-.modal {
-    display: none; 
-    position: fixed;
-    z-index: 1; 
-    padding-top: 100px; 
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.9); 
-}
-
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-}
-
-#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
-.modal-content, #caption {    
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
+ <style>
 
 @-webkit-keyframes zoom {
     from {transform:scale(0)} 
@@ -131,29 +64,7 @@ div.desc {
     to {transform:scale(1)}
 }
 
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
 
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 @media only screen and (max-width: 700px){
     .responsive {
@@ -174,199 +85,9 @@ div.desc {
 </style>
 <h2 style="text-align:center">Pen and Pixel Gallery 2016</h2>
         <div class="container">
-  <div class="responsive">
-  <div class="img">
-         <img src="images/submissions/0.jpg"/>
-         
-         <img src="images/submissions/1.jpg" />
-          <img src="images/submissions/2.jpg" />
-          <img src="images/submissions/3.jpg" />
-          <img src="images/submissions/4.jpg" />
-          <img src="images/submissions/5.jpg" />
-          <img src="images/submissions/6.jpg" />
-          <img src="images/submissions/7.jpg" />
-          <img src="images/submissions/8.jpg" />
-          <img src="images/submissions/9.jpg" />
-          <img src="images/submissions/10.jpg" />
-          <img src="images/submissions/11.jpg" />
-          <img src="images/submissions/12.jpg" />
-          <img src="images/submissions/13.jpg" />
-          <img src="images/submissions/14.jpg" />
-          <img src="images/submissions/15.jpg" />
-          <img src="images/submissions/16.jpg" />
-          <img src="images/submissions/17.jpg" />
-          <img src="images/submissions/18.jpg" />
-          <img src="images/submissions/19.jpg" />
-          <img src="images/submissions/20.jpg" />
-          <img src="images/submissions/21.jpg" />
-          <img src="images/submissions/22.jpg" />
-          <img src="images/submissions/23.jpg" />
-          <img src="images/submissions/24.jpg" />
-          <img src="images/submissions/25.jpg" />
-          <img src="images/submissions/26.jpg" />
-          <img src="images/submissions/27.jpg" />
-          <img src="images/submissions/28.jpg" />
-          <img src="images/submissions/29.jpg" />
-          <img src="images/submissions/30.jpg" />
-          <img src="images/submissions/31.jpg" />
-          <img src="images/submissions/32.jpg" />
-          <img src="images/submissions/33.jpg" />
-          <img src="images/submissions/34.jpg" />
-          <img src="images/submissions/35.jpg" />
-          <img src="images/submissions/36.jpg" />
-          <img src="images/submissions/37.jpg" />
-          <img src="images/submissions/38.jpg" />
-          <img src="images/submissions/39.jpg" />
-          <img src="images/submissions/40.jpg" />
-          <img src="images/submissions/41.jpg" />
-          <img src="images/submissions/42.jpg" />
-          <img src="images/submissions/43.jpg" />
-          <img src="images/submissions/44.jpg" />
-          <img src="images/submissions/45.jpg" />
-          <img src="images/submissions/46.jpg" />
-          <img src="images/submissions/47.jpg" />
-          <img src="images/submissions/48.jpg" />
-          <img src="images/submissions/49.jpg" />
-          <img src="images/submissions/50.jpg" />
-          <img src="images/submissions/51.jpg" />
-          <img src="images/submissions/52.jpg" />
-          <img src="images/submissions/53.jpg" />
-          <img src="images/submissions/54.jpg" />
-          <img src="images/submissions/55.jpg" />
-          <img src="images/submissions/56.jpg" />
-          <img src="images/submissions/57.jpg" />
-          <img src="images/submissions/58.jpg" />
-          <img src="images/submissions/59.jpg" />
-          <img src="images/submissions/60.jpg" />
-          <img src="images/submissions/61.jpg" />
-          <img src="images/submissions/62.jpg" />
-          <img src="images/submissions/63.jpg" />
-          <img src="images/submissions/64.jpg" />
-          <img src="images/submissions/65.jpg" />
-          <img src="images/submissions/66.jpg" />
-          <img src="images/submissions/67.jpg" />
-          <img src="images/submissions/68.jpg" />
-          <img src="images/submissions/69.jpg" />
-          <img src="images/submissions/70.jpg" />
-          <img src="images/submissions/71.jpg" />
-          <img src="images/submissions/72.jpg" />
-          <img src="images/submissions/73.jpg" />
-          <img src="images/submissions/74.jpg" />
-          <img src="images/submissions/75.jpg" />
-          <img src="images/submissions/76.jpg" />
-          <img src="images/submissions/77.jpg" />
-          <img src="images/submissions/78.jpg" />
-          <img src="images/submissions/79.jpg" />
-          <img src="images/submissions/80.jpg" />
-          <img src="images/submissions/81.jpg" />
-          <img src="images/submissions/82.jpg" />
-          <img src="images/submissions/83.jpg" />
-          <img src="images/submissions/84.jpg" />
-          <img src="images/submissions/85.jpg" />
-          <img src="images/submissions/86.jpg" />
-          <img src="images/submissions/87.jpg" />
-          <img src="images/submissions/88.jpg" />
-          <img src="images/submissions/89.jpg" />
-          <img src="images/submissions/90.jpg" />
-          <img src="images/submissions/91.jpg" />
-          <img src="images/submissions/92.jpg" />
-          <img src="images/submissions/93.jpg" />
-          <img src="images/submissions/94.jpg" />
-          <img src="images/submissions/95.jpg" />
-          <img src="images/submissions/96.jpg" />
-          <img src="images/submissions/97.jpg" />
-          <img src="images/submissions/98.jpg" />
-          <img src="images/submissions/99.jpg" />
-          <img src="images/submissions/100.jpg" />
-          <img src="images/submissions/101.jpg" />
-          <img src="images/submissions/102.jpg" />
-          <img src="images/submissions/103.jpg" />
-          <img src="images/submissions/104.jpg" />
-          <img src="images/submissions/105.jpg" />
-          <img src="images/submissions/106.jpg" />
-          <img src="images/submissions/107.jpg" />
-          <img src="images/submissions/108.jpg" />
-          <img src="images/submissions/109.jpg" />
-          <img src="images/submissions/110.jpg" />
-          <img src="images/submissions/111.jpg" />
-          <img src="images/submissions/112.jpg" />
-          <img src="images/submissions/113.jpg" />
-          <img src="images/submissions/114.jpg" />
-          <img src="images/submissions/115.jpg" />
-          <img src="images/submissions/116.jpg" />
-          <img src="images/submissions/117.jpg" />
-          <img src="images/submissions/118.jpg" />
-          <img src="images/submissions/119.jpg" />
-          <img src="images/submissions/120.jpg" />
-          <img src="images/submissions/121.jpg" />
-          <img src="images/submissions/122.jpg" />
-          <img src="images/submissions/123.jpg" />
-          <img src="images/submissions/124.jpg" />
-          <img src="images/submissions/125.jpg" />
-          <img src="images/submissions/126.jpg" />
-          <img src="images/submissions/127.jpg" />
-          <img src="images/submissions/128.jpg" />
-          <img src="images/submissions/129.jpg" />
-          <img src="images/submissions/130.jpg" />
-          <img src="images/submissions/131.jpg" />
-          <img src="images/submissions/132.jpg" />
-          <img src="images/submissions/133.jpg" />
-          <img src="images/submissions/134.jpg" />
-          <img src="images/submissions/135.jpg" />
-          <img src="images/submissions/136.jpg" />
-          <img src="images/submissions/137.jpg" />
-          <img src="images/submissions/138.jpg" />
-          <img src="images/submissions/139.jpg" />
-          <img src="images/submissions/140.jpg" />
-          <img src="images/submissions/141.jpg" />
-          <img src="images/submissions/142.jpg" />
-          <img src="images/submissions/143.jpg" />
-          <img src="images/submissions/144.jpg" />
-          <img src="images/submissions/145.jpg" />
-          <img src="images/submissions/146.jpg" />
-          <img src="images/submissions/147.jpg" />
-          <img src="images/submissions/148.jpg" />
-          <img src="images/submissions/149.jpg" />
-          <img src="images/submissions/150.jpg" />
-          <img src="images/submissions/151.jpg" />
-          <img src="images/submissions/152.jpg" />
-          <img src="images/submissions/153.jpg" />
-          <img src="images/submissions/154.jpg" />
-          <img src="images/submissions/155.jpg" />
-          <img src="images/submissions/156.jpg" />
-          <img src="images/submissions/157.jpg" />
-          <img src="images/submissions/158.jpg" />
-          <img src="images/submissions/159.jpg" />
-          <img src="images/submissions/160.jpg" />
-          <img src="images/submissions/161.jpg" />
-          <img src="images/submissions/162.jpg" />
-          <img src="images/submissions/163.jpg" />
-          <img src="images/submissions/164.jpg" />
-          <img src="images/submissions/165.jpg" />
-          <img src="images/submissions/166.jpg" />
-          <img src="images/submissions/167.jpg" />
-          <img src="images/submissions/168.jpg" />
-          <img src="images/submissions/169.jpg" />
-          
-  
-        </div>
-  </div>
-      </div>
-      <div class="clearfix"></div>
-      
-      <div id="myModal" class="modal">
-  <span class="close">×</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
+          <a href="images/submissions/0.jpg" rel="prettyPhoto[submissions]" title="You can add caption to pictures."><img src="images/submissions/0.jpg" width="20%" height="20%" alt="Red round shape" /></a>
+
+
 </div>
-      
-      <script>
-      var modal = document.getElementById('myModal');
-	  var span = document.getElementsByClassName("close")[0];
-	  span.onclick = function() { 
-    modal.style.display = "none";
-}
-
-
-      </body>
-      </html>
+</body>
+</html>
